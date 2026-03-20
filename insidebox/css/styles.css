@@ -61,6 +61,10 @@ li a {
     color: var(--deep-cyan-text);
 }
 
+li a:hover {
+    font-weight: bold;
+}
+
 a {
     font-size: 1.125rem;
     text-decoration: none;
@@ -71,11 +75,14 @@ svg {
     stroke: var(--deep-cyan);
 }
 
-.sub-menu a:not(:last-child) {
+.sub-menu a {
     padding: .5rem;
     border-bottom: 1px solid var(--grey);
 }
 
+.sub-menu a:hover {
+    color: var(--light-blue);
+}
 
 .sub-menu {
     position: absolute;
