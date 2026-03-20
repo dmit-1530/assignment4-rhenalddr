@@ -71,16 +71,21 @@ svg {
     stroke: var(--deep-cyan);
 }
 
+.sub-menu a:not(:last-child) {
+    padding: .5rem;
+    border-bottom: 1px solid var(--grey);
+}
+
+
 .sub-menu {
     position: absolute;
-    left: 388px;
+    left: 24.25rem;
     top: 6.5rem;
-    min-width: 10.875rem;
+    width: 10.875rem;
     background-color: white;
     border: 1px solid var(--light-blue);
     border-radius: 7px;
     box-shadow: var(--box-shadow);
-    
     padding: 1.125rem;
     visibility: hidden;
     opacity: 0;
